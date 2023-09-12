@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { PintadonImg } from "./PintadonImg";
 
 export const InputImg = () => {
-  const [valorInput, setValorInput] = useState("");
+  const [valorInput, setValorInput] = useState("perros");
   const captura = (e) => {
     e.preventDefault();
     let input = document.querySelector("input");
@@ -11,8 +11,7 @@ export const InputImg = () => {
 
   return (
     <div>
-      <form action="">
-        {" "}
+      <form action="">        
         <input type="text" />
         <button onClick={captura}>Buscar</button>
       </form>
