@@ -1,7 +1,7 @@
-
-
-export const ImgItems =({previewURL})=>{
-    return(
-    <img src={previewURL}/>
-    )
-}
+export const ImgItems = ({ webformatURL }) => {
+  return (
+    <div>
+      <img src={webformatURL} />
+    </div>
+  );
+};
